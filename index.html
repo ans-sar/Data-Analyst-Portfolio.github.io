@@ -52,7 +52,7 @@
 							 <li>
 							    <button  onclick="toggle()"class="button">Learn More</button>
 								<!-- <a href="#" onclick="toggle()" class="button">Learn More</a>  -->
-								<div id="learnmore">
+								<div id="learnmore"style="display: none;">
 									<h2 style="color: wheat;">Learn More About Me</h2>
 <p>
 With a background in computer science and  experience in education, I bring a unique blend of analytical thinking and clear communication to data analysis. My time as a computer teacher sharpened my ability to evaluate performance, adapt strategies, and explain technical concepts in simple terms.
@@ -526,7 +526,7 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 			<script>
 		function toggle() {
 			var  x = document.getElementById("learnmore");
-			if(x.style.display === "none"){
+			if(x.style.display === "none"|| x.style.display === ""){
 				x.style.display = "block";
 			}
 			else {
